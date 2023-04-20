@@ -23,7 +23,9 @@ import io.agora.scene.voice.ui.adapter.Room2DBotMicAdapter
 import io.agora.scene.voice.ui.adapter.Room2DMicAdapter
 import io.agora.scene.voice.ui.adapter.viewholder.Room2DMicViewHolder
 import io.agora.scene.voice.ui.adapter.viewholder.Room2DBotMicViewHolder
-
+/**
+ * This code defines a custom view called Room2DMicLayout which displays a grid of microphone icons representing the users in a chat room. It uses two adapters, Room2DMicAdapter and Room2DBotMicAdapter, to display the microphone icons for regular users and bots respectively. The view also provides methods to update the volume of the microphones, find a microphone by user ID, and update the microphone list when a user joins or leaves the chat room. The setMyRtcUid method is used to set the user's own RTC UID, which is used to identify the user's microphone icon in the grid.
+ */
 class Room2DMicLayout : ConstraintLayout, IRoomMicView {
 
     private lateinit var binding: VoiceViewRoom2dMicLayoutBinding

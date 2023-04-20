@@ -18,6 +18,8 @@ import io.agora.voice.common.utils.LogTools.logE
 
 /**
  * @author create by zhangwei03
+ *
+ * This code is a Kotlin class that controls the Agora RTC (Real-Time Communication) engine, which is used for voice communication in real-time applications. It provides methods for joining a channel, setting up audio profiles, adjusting audio settings, and playing sound effects. The class also handles callbacks for events such as errors, joining a channel, and volume changes. It uses the Agora RTC SDK to interact with the RTC engine and the Agora AI Noise Suppression
  */
 class AgoraRtcEngineController {
 

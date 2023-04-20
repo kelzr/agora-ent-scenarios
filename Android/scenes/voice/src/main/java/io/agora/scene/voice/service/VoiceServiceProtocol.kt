@@ -7,7 +7,7 @@ import io.agora.voice.common.utils.LogTools.logE
 /**
  * @author create by zhangwei03
  *
- * voice chat room protocol define
+ * This code defines the protocol for a voice chat room service. It includes methods for creating and joining chat rooms, fetching room details and member lists, managing mic seats, updating announcements, and enabling/disabling a chat room robot. The protocol also defines error codes for various operations. The implementation of the protocol is provided by the VoiceSyncManagerServiceImp class, which is instantiated as a singleton instance.
  */
 interface VoiceServiceProtocol {
 

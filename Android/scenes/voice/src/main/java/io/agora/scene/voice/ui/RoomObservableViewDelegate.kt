@@ -42,7 +42,7 @@ import io.agora.voice.common.utils.ToastTools
 /**
  * @author create by zhangwei03
  *
- * 房间头部 && 麦位置数据变化代理
+ * This code is the implementation of the presenter for the voice chat room feature in an Android app. It handles the logic for managing the chat room, including joining and leaving the room, managing the microphone and speaker settings, sending and receiving messages, and handling user interactions with the UI. It also interacts with the AgoraRtcEngineController to manage the audio and video streams. The code uses various libraries and APIs, including the Agora SDK, Gson, and EMChat.
  */
 class RoomObservableViewDelegate constructor(
     private val activity: FragmentActivity,

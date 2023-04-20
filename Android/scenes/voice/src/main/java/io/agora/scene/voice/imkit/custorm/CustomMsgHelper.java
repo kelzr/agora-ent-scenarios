@@ -40,6 +40,9 @@ import io.agora.voice.common.utils.LogTools;
  *      {@link #sendCustomMsg(String, ChatMessage.ChatType, String, Map, OnMsgCallBack)}。
  * （5）自定义消息类型枚举{@link CustomMsgType} 定义了礼物，点赞及弹幕消息类型（以event区分）
  */
+/**
+ * This code is a part of a chat room module and handles the reception and sending of chat messages. It implements the ChatManagerListener interface provided by the chat SDK and overrides its methods to handle different types of chat messages. It also provides methods to send custom messages such as gift messages, system messages, and praise messages. Additionally, it provides methods to retrieve gift and normal messages from the chat history. The code also includes methods to parse and extract information from custom messages such as gift and praise messages.
+ */
 public class CustomMsgHelper implements MessageListener {
     private static CustomMsgHelper instance;
     private CustomMsgHelper(){}

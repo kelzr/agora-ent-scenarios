@@ -39,7 +39,9 @@ import io.agora.util.EMLog;
 import io.agora.voice.common.utils.GsonTools;
 import io.agora.voice.common.utils.LogTools;
 import io.agora.voice.common.utils.ThreadManager;
-
+/**
+ * This code is a part of a chat room management system. It provides various methods to manage the chat room, such as logging in and out, joining and leaving the room, managing the microphone seats, updating the room information, and managing the local cache. It uses the Agora SDK for voice communication and the EaseMob SDK for chat room management. The code also includes callback functions to handle the success or failure of the operations.
+ */
 public class ChatroomIMManager implements ChatRoomChangeListener, ConnectionListener {
     private static ChatroomIMManager instance;
     private ChatroomIMManager(){}

@@ -37,7 +37,9 @@ import io.agora.voice.common.utils.DeviceTools;
 import io.agora.voice.common.utils.ImageTools;
 import io.agora.voice.common.utils.LogTools;
 
-
+/**
+ * This code defines a custom view called ChatroomGiftView, which displays a list of gifts sent in a chatroom. It contains a RecyclerView to display the list of gifts, and a GiftListAdapter to manage the data and view for each gift item. The view also includes a timer to periodically clear the gift list, and methods to refresh and remove all gifts from the list. The GiftViewHolder class defines the view holder for each gift item in the list. Overall, this view provides a way to display and manage the gift items sent in a chatroom.
+ */
 public class ChatroomGiftView extends LinearLayout {
     private RecyclerView recyclerView;
     private String chatroomId;

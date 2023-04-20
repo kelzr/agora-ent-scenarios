@@ -21,7 +21,9 @@ import io.agora.scene.voice.service.VoiceRoomSubscribeDelegate;
 import io.agora.scene.voice.service.VoiceServiceProtocol;
 import io.agora.util.EMLog;
 import io.agora.voice.common.utils.LogTools;
-
+/**
+ * This code defines a singleton class called ChatroomConfigManager that manages the configuration of a chatroom. It initializes the chat options with the provided IM key, registers listeners for various chatroom events, and provides methods to remove the chatroom listeners. The class also interacts with the VoiceServiceProtocol to notify the subscribed delegates about various chatroom events such as receiving text messages, receiving gifts, user joining or leaving the room, and room destruction. The class also checks if the current process is the main process or not.
+ */
 public class ChatroomConfigManager {
     private static final String TAG = ChatroomConfigManager.class.getSimpleName();
     private static ChatroomConfigManager mInstance;

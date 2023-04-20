@@ -46,7 +46,7 @@ import io.agora.voice.common.utils.LogTools;
 import io.agora.voice.common.utils.ThreadManager;
 
 /**
- * MessagesView
+ * This code defines a custom view for displaying chat messages in a chatroom. It initializes the view with a RecyclerView and sets up a custom adapter to display the chat messages. The adapter uses two different view holders for displaying regular chat messages and system messages. The view also includes methods for refreshing the chat messages and scrolling to the bottom of the view. Additionally, it includes a custom LinearLayoutManager that allows for controlling the speed of scrolling.
  */
 public class ChatroomMessagesView extends RelativeLayout{
     private ListAdapter adapter;
